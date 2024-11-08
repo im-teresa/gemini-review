@@ -8,7 +8,11 @@
 
 ## Quick Start
 
-Create `.github/workflows/[gemini-review-code].yml`
+### 1. Create `GEMINI_API_KEY` and `GIT_TOKEN_KEY`
+
+After having the 2 above keys, at the github repository, go to **Settings** > **Secrets and Variales** > **Actions** > ***Add 2 new secret keys***.
+
+### 2. Create `.github/workflows/[gemini-review-code].yml`
 
 ```yml
 name: "Review the code with Gemini"
