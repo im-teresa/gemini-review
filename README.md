@@ -8,11 +8,32 @@
 
 ## Quick Start
 
-### 1. Create `GEMINI_API_KEY` and `GIT_TOKEN_KEY`
+### 1. Create `package.json`
+
+```json
+{
+  "name": "Project Name",
+  "main": "index.html",
+  "devDependencies": {
+    "@types/node": "^22.9.0"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "loglevel": "^1.9.2",
+    "tslog": "^4.9.3"
+  }
+}
+```
+
+### 2. Create `GEMINI_API_KEY` and `GIT_TOKEN_KEY`
 
 After having the 2 above keys, at the github repository, go to **Settings** > **Secrets and Variales** > **Actions** > ***Add 2 new secret keys***.
 
-### 2. Create `.github/workflows/[gemini-review-code].yml`
+### 3. Create `.github/workflows/[gemini-review-code].yml`
 
 ```yml
 name: "Review the code with Gemini"
