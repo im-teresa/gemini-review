@@ -2,7 +2,7 @@
 
 <p>
 <a href="https://bunhere.com"><img src="./images/reviewpr.png" width="24" alt="WTM"></a>
-<a href="#"><img src="https://img.shields.io/badge/Review PR-v1.0.0-blue" alt="Latest Stable Version"></a>
+<a href="#"><img src="https://img.shields.io/badge/Review PR-v1.0.1-blue" alt="Latest Stable Version"></a>
 <a href="#"><img src="https://img.shields.io/badge/license-MIT-yellow" alt="License"></a>
 </p>
 
@@ -13,13 +13,11 @@
 ```json
 {
     "name": "project_name",
-    "main": "index.js",
+    "main": "index.html",
     "devDependencies": {
         "@types/node": "^22.9.0"
     },
-    "dependencies": {
-        "@bunheree/gemini-review": "^1.0.0"
-    }
+    "dependencies": {}
 }
 ```
 
