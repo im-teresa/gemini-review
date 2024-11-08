@@ -12,20 +12,14 @@
 
 ```json
 {
-  "name": "Project Name",
-  "main": "index.html",
-  "devDependencies": {
-    "@types/node": "^22.9.0"
-  },
-  "dependencies": {
-    "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.0",
-    "@google/generative-ai": "^0.21.0",
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
-    "loglevel": "^1.9.2",
-    "tslog": "^4.9.3"
-  }
+    "name": "project_name",
+    "main": "index.js",
+    "devDependencies": {
+        "@types/node": "^22.9.0"
+    },
+    "dependencies": {
+        "@bunheree/gemini-review": "^1.0.0"
+    }
 }
 ```
 

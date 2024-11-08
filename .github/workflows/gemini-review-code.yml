@@ -17,6 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./
 
       - name: "Get diff of the pull request"
         id: get_diff
